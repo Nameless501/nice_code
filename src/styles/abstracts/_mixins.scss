@@ -1,0 +1,75 @@
+@mixin font-face($family, $weight, $file-name, $format) {
+    font-family: $family;
+    font-style: normal;
+    font-weight: $weight;
+    font-display: swap;
+    src: url('/src/assets/fonts/#{$file-name}') format($format);
+}
+
+@mixin abs-position($top, $left, $bottom, $right) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin padding-x($left, $right) {
+    padding-left: $left;
+
+    @if $right {
+        padding-right: $right;
+    } @else {
+        padding-right: $left;
+    }
+}
+
+@mixin text-shorten {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin bg-image($file-name, $size: contain, $position: center) {
+    background-image: url('/src/assets/images/#{$file-name}');
+    background-position: $position;
+    background-size: $size;
+    background-repeat: no-repeat;
+}
+
+@mixin font-params($family, $size, $weight, $lh, $color: false) {
+    font-family: #{$family};
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $lh;
+
+    @if $color {
+        color: $color;
+    }
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-center-column {
+    @include flex-center;
+    flex-direction: column;
+}
+
+@mixin flex-center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-center-horizontal {
+    display: flex;
+    justify-content: center;
+}

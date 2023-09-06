@@ -1,0 +1,35 @@
+@use '../abstracts' as *;
+
+.patient-info {
+    padding: 10px;
+    width: 100%;
+    @include flex-center;
+    align-items: flex-start;
+    gap: $gap_m;
+    background-color: $color_white;
+    border-radius: 4px;
+    box-shadow: $box_shadow_4;
+
+    &__wrapper {
+        padding-top: 5px;
+        padding-right: 5px;
+        width: 100%;
+        @include flex-center;
+        justify-content: space-between;
+    }
+
+    &__info {
+        @include flex-column;
+        gap: $gap_xs;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    &__name {
+        @include font-params($font_main, 16px, 400, 20px);
+    }
+
+    &__age {
+        @include font-params($font_main, 12px, 400, normal);
+    }
+}

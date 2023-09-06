@@ -1,0 +1,17 @@
+@use '../abstracts' as *;
+
+.notification-badge {
+    display: block;
+
+    &_type_message {
+        width: 16px;
+        height: 16px;
+        @include bg-image('message-icon.svg', cover);
+    }
+
+    &_type_notification {
+        width: 20px;
+        height: 17px;
+        @include bg-image('notification-icon.svg', cover);
+    }
+}

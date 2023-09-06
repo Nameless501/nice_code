@@ -1,0 +1,8 @@
+@use '../abstracts' as *;
+
+.sidebar {
+    @include flex-column;
+    width: 100%;
+    max-width: 366px;
+    gap: $gap_m;
+}

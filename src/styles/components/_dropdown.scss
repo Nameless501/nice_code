@@ -1,0 +1,32 @@
+@use '../abstracts' as *;
+
+.dropdown {
+    &__menu {
+        padding: 9px 0 8px;
+        background-color: $color_white;
+        width: 230px;
+        border-radius: 4px;
+        box-shadow: $box_shadow_5;
+        border: 0;
+        transform: translate(calc(-100% + 17px), 24px);
+
+        &::backdrop {
+            background-color: transparent;
+        }
+    }
+
+    &__option {
+        padding: 10px 20px;
+        width: 100%;
+        height: 36px;
+        background-color: transparent;
+        border: 0;
+        @include font-params($font_main, 14px, 400, normal, $color_black);
+        text-align: left;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $color_gray_light;
+        }
+    }
+}

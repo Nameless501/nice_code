@@ -1,0 +1,25 @@
+@use '../abstracts' as *;
+
+.icon-image {
+    fill: $color_black;
+
+    &_variant_gray {
+        fill: $color_gray_dark;
+    }
+
+    &_hover-gray {
+        fill: $color_white;
+    }
+
+    &_variant_white {
+        fill: $color_black;
+    }
+
+    &_hover-white {
+        fill: $color_white;
+    }
+
+    &_variant_transparent {
+        fill: $color_gray_dark;
+    }
+}

@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.page {
+    padding-bottom: 119px;
+    width: 100%;
+    @include flex-center-column;
+    justify-content: flex-start;
+    gap: $gap_xl;
+
+    &__content {
+        width: 100%;
+        max-width: $max_content_width;
+        display: flex;
+        gap: $gap_xl;
+    }
+}

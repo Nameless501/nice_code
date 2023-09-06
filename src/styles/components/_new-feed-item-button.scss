@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+.new-feed-item-button {
+    @include flex-center;
+    gap: $gap_s;
+    background-color: transparent;
+    border: 0;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    &__text {
+        @include font-params($font_main, 14px, 400, normal, $color_gray_dark);
+    }
+
+    &__icon {
+        width: 26px;
+        height: 26px;
+        @include bg-image('recommend-icon.svg');
+    }
+}

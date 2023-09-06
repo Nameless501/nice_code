@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.main-button {
+    border: 0;
+    background-color: transparent;
+    @include font-params($font_main, 14px, 400, 20px, $color_gray_dark);
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    &_active {
+        color: $color_blue;
+    }
+}

@@ -1,0 +1,22 @@
+@use '../abstracts' as *;
+
+.select-bar {
+    @include padding-x(15px, 10px);
+    width: 100%;
+    @include flex-center;
+    justify-content: space-between;
+
+    &_active {
+        @include padding-x(10px, 15px);
+    }
+
+    &__group-left {
+        @include flex-center;
+        gap: $gap_s;
+    }
+
+    &__group-right {
+        @include flex-center;
+        gap: $gap_m;
+    }
+}

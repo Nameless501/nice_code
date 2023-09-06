@@ -1,0 +1,45 @@
+@use '../abstracts' as *;
+
+.patient-card {
+    padding: 10px 20px 10px 10px;
+    width: 100%;
+    height: 60px;
+    background-color: $color_white;
+    box-shadow: $box_shadow_1;
+    border-radius: 4px;
+    @include flex-center;
+    gap: $gap_s;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &_state_message {
+        background: linear-gradient(to right, $color_blue, $color_white 3px);
+    }
+
+    &_state_active {
+        padding: 9px 19px 9px 9px;
+        border: 1px solid $color_white;
+        background: $color_gray_light;
+    }
+
+    &_state_select {
+        padding-left: 15px;
+    }
+
+    &__wrapper {
+        width: 100%;
+        @include flex-center;
+        justify-content: space-between;
+    }
+
+    &__patient-info {
+        @include flex-center;
+        gap: $gap_s;
+    }
+
+    &__name {
+        @include font-params($font_main, 16px, 400, 20px);
+    }
+}

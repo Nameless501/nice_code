@@ -1,0 +1,13 @@
+@use '../abstracts' as *;
+
+.feed-cards-list {
+    @include flex-column;
+    width: 100%;
+    gap: $gap_s;
+    list-style: none;
+
+    &_place_notes {
+        padding: 5px;
+        gap: $gap_m;
+    }
+}

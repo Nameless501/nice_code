@@ -1,0 +1,38 @@
+@use '../abstracts' as *;
+
+.checkbox {
+    @include flex-center;
+    gap: $gap_s;
+
+    &:hover {
+        cursor: pointer;
+        // border: 1px solid $color_blue;
+    }
+
+    &:hover > .checkbox__input {
+        border: 1px solid $color_blue;
+        cursor: pointer;
+    }
+
+    &__input {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 18px;
+        height: 18px;
+        min-width: 18px;
+        border-radius: 4px;
+        border: 1px solid $color_gray;
+        background-color: $color_white;
+        outline: none;
+
+        &_checked {
+            background-color: $color_blue;
+            border: 1px solid $color_blue;
+            @include bg-image('checked-icon.svg', 100%);
+        }
+    }
+
+    &__label {
+        @include font-params($font_main, 14px, 400, 20px, $color_gray_dark);
+    }
+}

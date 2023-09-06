@@ -1,0 +1,56 @@
+@use '../abstracts' as *;
+
+.consultation-card {
+    padding: 10px;
+    width: 100%;
+    height: 66px;
+    border-radius: 4px;
+    border: 1px solid $color_gray;
+    @include flex-center;
+    justify-content: space-between;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &__info-wrapper {
+        @include flex-center;
+        gap: $gap_s;
+    }
+
+    &__icon {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        background-color: $color_gray_light;
+        border-radius: 50%;
+        @include flex-center;
+    }
+
+    &__info {
+        @include flex-column;
+        align-items: flex-start;
+        gap: $gap_m;
+    }
+
+    &__type {
+        @include font-params($font_main, 16px, 400, 16px, $color_black);
+    }
+
+    &__time {
+        @include font-params($font_main, 14px, 400, normal, $color_gray_dark);
+    }
+
+    &__approval {
+        align-self: flex-end;
+        @include font-params($font_main, 14px, 400, 20px, $color_red);
+    }
+
+    &_active {
+        border: 1px solid $color_blue;
+    }
+
+    &__icon_active {
+        background-color: $color_blue;
+    }
+}

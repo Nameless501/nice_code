@@ -1,0 +1,18 @@
+@use '../abstracts' as *;
+
+.profile-controls {
+    @include padding-x(10px, 20px);
+    @include flex-center;
+    justify-content: space-between;
+
+    &__buttons-group {
+        @include flex-center;
+        gap: $gap_l;
+    }
+
+    &__divider {
+        width: 1px;
+        height: 18px;
+        background-color: $color_gray;
+    }
+}

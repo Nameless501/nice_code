@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+.count-badge {
+    padding: 0 4px;
+    display: block;
+    border-radius: 9px;
+    min-width: 28px;
+    background-color: $color_gray_dark;
+    @include font-params($font_main, 12px, 400, 14px, $color_white);
+    text-align: center;
+
+    &_active {
+        background-color: $color_blue;
+    }
+}

@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.controls-buttons {
+    width: 100%;
+    @include flex-center;
+    justify-content: space-between;
+
+    &__buttons-group {
+        @include flex-center;
+        gap: $gap_s;
+    }
+}
