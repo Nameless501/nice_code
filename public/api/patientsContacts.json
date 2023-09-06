@@ -2,35 +2,35 @@
     {
         "id": 111,
         "name": "Кравцова Александра",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/kravtsova.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/kravtsova.jpg",
         "isMessage": true,
         "isNotification": false
     },
     {
         "id": 112,
         "name": "Рожков Денис",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/rozhkov.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/rozhkov.jpg",
         "isMessage": false,
         "isNotification": false
     },
     {
         "id": 113,
         "name": "Кравцова Александра",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/kravtsova.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/kravtsova.jpg",
         "isMessage": false,
         "isNotification": true
     },
     {
         "id": 114,
         "name": "Диброва Алевтина",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/dibrova.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/dibrova.jpg",
         "isMessage": false,
         "isNotification": false
     },
     {
         "id": 115,
         "name": "Иванов Дмитрий",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/ivanov.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/ivanov.jpg",
         "isMessage": false,
         "isNotification": false
     },
@@ -44,41 +44,41 @@
     {
         "id": 117,
         "name": "Форс Александр",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/fors.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/fors.jpg",
         "isMessage": false,
         "isNotification": false
     },
     {
         "id": 118,
         "name": "Ахмедов Артур",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/akhmedov.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/akhmedov.jpg",
         "isMessage": false,
         "isNotification": false
     },
     {
         "id": 119,
         "name": "Блажевич Игорь",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/blazhevich.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/blazhevich.jpg",
         "isMessage": false,
         "isNotification": false
     },
     {
         "id": 120,
         "name": "Валиева Руфина",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/valieva.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/valieva.jpg",
         "isMessage": false,
         "isNotification": false
     },
     {
         "id": 121,
         "name": "Волошина Виктория",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/voloshina.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/voloshina.jpg",
         "isMessage": false
     },
     {
         "id": 122,
         "name": "Волошина Виктория",
-        "avatar": "https://nameless501.github.io/test_nice_code/api/voloshina.jpg",
+        "avatar": "https://nameless501.github.io/nice_code/api/voloshina.jpg",
         "isMessage": false,
         "isNotification": false
     }

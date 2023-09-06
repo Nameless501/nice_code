@@ -37,8 +37,8 @@ export const newFeedItemButtonConfig = {
 };
 
 export const apiRoutes = {
-    contactsUrl: 'https://nameless501.github.io/test_nice_code/api/patientsContacts.json',
-    patientDataUrl: 'https://nameless501.github.io/test_nice_code/api/patientsData.json',
+    contactsUrl: 'https://nameless501.github.io/nice_code/api/patientsContacts.json',
+    patientDataUrl: 'https://nameless501.github.io/nice_code/api/patientsData.json',
 };
 
 export const agePluralsConfig = {
